@@ -45,10 +45,6 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 6.Run the program.
 
-Developed by: P. THIRUMALAI
-
-RegisterNumber: 24900297
-
 **PROGRAM**
 
 /*
@@ -59,11 +55,12 @@ Developed by: P. THIRUMALAI
 RegisterNumber: 24900297
 
 */
-
 module JKflipflop(q, qb,j,k,clock,reset);
     input j,k,clock,reset;
     output reg q, qb;
     
+     always @ (posedge (clock))
+
     begin 
         if (!reset)
             begin
@@ -71,7 +68,6 @@ module JKflipflop(q, qb,j,k,clock,reset);
                qb <=qb;
             end   
         else
-
     begin
         if (j == 0 && k == 0)
 		  begin
