@@ -56,6 +56,7 @@ RegisterNumber: 24900297
 
 */
 module JKflipflop(q, qb,j,k,clock,reset);
+
     input j,k,clock,reset;
     output reg q, qb;
     
