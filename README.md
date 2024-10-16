@@ -53,13 +53,17 @@ RegisterNumber: 24900297
 
 /*
 Program for flipflops and verify its truth table in quartus using Verilog programming. 
-*/
-module JKflipflop(q, qb,j,k,clock,reset);
-    input j,k,clock,reset; 
-    output reg q, qb;
-	 
-  always @ (posedge (clock))
 
+Developed by: P. THIRUMALAI
+
+RegisterNumber: 24900297
+
+*/
+
+module JKflipflop(q, qb,j,k,clock,reset);
+    input j,k,clock,reset;
+    output reg q, qb;
+    
     begin 
         if (!reset)
             begin
