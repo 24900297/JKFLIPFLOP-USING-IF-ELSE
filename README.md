@@ -58,6 +58,7 @@ Program for flipflops and verify its truth table in quartus using Verilog progra
 module JKflipflop(q, qb,j,k,clock,reset);
 
     input j,k,clock,reset;
+    
     output reg q, qb;
 	 
 always @ (posedge (clock))
