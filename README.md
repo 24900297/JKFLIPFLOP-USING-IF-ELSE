@@ -91,6 +91,7 @@ else
 	end
      end
 endmodule
+
 **RTL LOGIC FOR FLIPFLOPS**
 
 ![EX 7 RTL ](https://github.com/user-attachments/assets/1a74ae67-fb68-450c-ae2e-be020e9ade78)
