@@ -61,7 +61,7 @@ module JKflipflop(q, qb,j,k,clock,reset);
     
     output reg q, qb;
 	 
-always @ (posedge (clock))
+  always @ (posedge (clock))
 
     begin 
         if (!reset)
@@ -69,8 +69,7 @@ always @ (posedge (clock))
                q <= q;
                qb <=qb;
             end   
-        
-else
+        else
 
     begin
         if (j == 0 && k == 0)
@@ -90,7 +89,7 @@ else
             	end   
 	end
      end
-endmodule
+     endmodule
 
 **RTL LOGIC FOR FLIPFLOPS**
 
