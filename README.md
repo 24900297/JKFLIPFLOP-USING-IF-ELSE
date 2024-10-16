@@ -50,6 +50,7 @@ Developed by: P. THIRUMALAI
 RegisterNumber: 24900297
 
 **PROGRAM**
+
 /*
 Program for flipflops and verify its truth table in quartus using Verilog programming. 
 */
