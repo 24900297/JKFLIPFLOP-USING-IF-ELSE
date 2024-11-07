@@ -53,10 +53,10 @@ Program for flipflops and verify its truth table in quartus using Verilog progra
 Developed by: P. THIRUMALAI
 
 RegisterNumber: 24900297
-
 */
 
 
+```
 module JK_FF(q,qb,j,k,clock);
 input j,k,clock;
 output reg q;
@@ -68,7 +68,7 @@ begin
 end
 assign qb = (~q);
 endmodule
-
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 
